@@ -57,6 +57,7 @@ const React = {
     createElement,
     stateArr: [],
     currentStateIndex: 0,
+
     useState(initialValue) {
         if(this.currentStateIndex === this.stateArr.length) { 
             const statePair = {
