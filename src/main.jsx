@@ -85,7 +85,7 @@ const Counter = () => {
     return <h1 onClick={handleClick}>{state}</h1>
 }
 const App = () => {
-    console.log("rerendering")
+    
     return <div><Counter /></div>
 }
 
